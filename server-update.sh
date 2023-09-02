@@ -2,6 +2,8 @@
 # Description: This script updates apt package mange with package information and upgrades upgradable packages.
 # Frequency: Every Friday at 11pm, * 23 * * 5. Use `crontab -e` to see cronjobs
 # Outputs: ~/server_update/update.%m.%d.%y.txt
+# Author: Luis Moreno
+# Date: 8/31/2023
 
 # Setting output file's name
 output_file="update$(date +'%m.%d.%y').txt"
