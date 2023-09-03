@@ -2,6 +2,8 @@
 # Description: This script prompts a user to select scp or ssh and prompted for destination ip and user
 # If ssh selected. The user is prompted for password and connected to remote server
 # If scp is selected the user is prompted to select direction of copy and the is executed
+# Author: Luis Moreno
+# Date: 9/2/2023
 
 #Prompt user to select ssh or scp
 echo "Hi $(whoami),"
