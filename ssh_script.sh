@@ -1,7 +1,7 @@
 #!/bin/bash
 # Description: This script prompts a user to select scp or ssh and prompted for destination ip and user
 # If ssh selected. The user is prompted for password and connected to remote server
-# If scp is selected the user is prompted to select direction of copy and the is executed
+# If scp is selected the user is prompted to select direction of copy as well as source and destination file locations
 # Author: Luis Moreno
 # Date: 9/2/2023
 
