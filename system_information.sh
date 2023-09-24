@@ -55,7 +55,7 @@ case $minus_one in
     ;;
     5)
         # https://www.commandlinux.com/man-page/man1/w.1.html
-        echo "$(w | head -n 1 | cut -d ',' -f 2) logged in"
+        echo "$(w | head -n 1 | cut -d ',' -f 3) logged in"
     ;;
     6)
         echo "Available shells: $(cat /etc/shells)"
@@ -67,22 +67,22 @@ case $minus_one in
     8)
         # https://www.howtoforge.com/linux-lscpu-command/
         echo -e "CPU information: \n"
-        echo "$lscpu"
+        lscpu
     ;;
     9)
         # https://www.commandlinux.com/man-page/man1/free.1.html
         echo -e "Memory information: \n"
-        echo "$free"
+        free
     ;;
     10)
         # https://www.commandlinux.com/man-page/man2/mount.2.html
         echo -e "File system information:\n" 
-        echo "$mount"
+        mount
     ;;
     11)
         # https://www.commandlinux.com/man-page/man1/ps.1.html
         echo -e "Running processes"
-        echo "$(ps aux)"
+        ps aux
     ;;
     0)
         echo $(exit 1)
