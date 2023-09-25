@@ -85,6 +85,6 @@ case $minus_one in
         ps aux
     ;;
     0)
-        echo $(exit 1)
+        exit 1
     ;;
 esac
